@@ -1,0 +1,39 @@
+# app build folders
+/Debug
+/Debug Static
+/x64
+/Release Static
+/Release
+
+
+# Server App Build folders
+/ServerApp/Debug Static
+/ServerApp/Debug
+/ServerApp/Release
+/ServerApp/Release Static
+/ServerApp/x64
+
+# Process Launcher build folders
+/ProcessLauncher/Debug
+/ProcessLauncher/Debug Static
+/ProcessLauncher/Release
+/ProcessLauncher/Release Static
+/ProcessLauncher/x64
+
+# Networklib-dist build folders
+/networklib-dist/lib-x64
+/networklib-dist/lib-x86
+
+# Network library build folders
+/network_library/x64
+/network_library/Debug
+/network_library/Debug Static
+/network_library/Release
+/network_library/Release Static
+
+# Client App build folders
+/ClientApp/x64
+/ClientApp/Debug
+/ClientApp/Debug Static
+/ClientApp/Release
+/ClientApp/Release Static

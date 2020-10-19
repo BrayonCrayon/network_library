@@ -1,0 +1,30 @@
+Setting up to use ProcessLauncher.exe	
+	When using ProcessLauncher you must have a file in the same directory
+		location as the ProcessLauncher.exe named launch_commands.txt.
+		In the .txt file the file should contain
+			ex:
+			1,ServerApp.exe,
+			1,ClientApp.exe,Username
+			1,ClientApp.exe,Username
+			.....
+		
+		You can specify any number of ClientApp.exe to be launched.
+
+Server App Instructions:
+	If doing launch without ProcessLauncher then launch Server.exe
+		first before launching ClientApp.exe.
+		
+	NOTE** if the last client sends "quit" message the server will stop 
+		recieveing messages and shutdown.
+		
+Client App Instructions:
+	Provide a user identifer name for communication with different clients
+		through the server. If no user name is provided the program will
+		exit on failure.
+		ex: ClientApp.exe Garth
+	
+	Send any message to the server for other clients to see what you have 
+		sent. 
+		
+	When wanting to quit from the server type "quit" to remove yourself from
+		the server and stop sending messages. 
